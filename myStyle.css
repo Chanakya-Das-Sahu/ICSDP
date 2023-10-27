@@ -1,0 +1,291 @@
+html{
+    font-size:62.5%;
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+body{
+ font-family:"Roboto",sans-serif;
+}
+
+#media (min-width:386px) and (max-width:1240px){
+ #ToggleMenu{ 
+  display:none;
+ }
+}
+
+@media (min-width:1px) and (max-width:405px){
+  #contact div{
+    font-size:2rem;
+  }
+
+  #registration #ab{
+    font-size:2rem;
+  }
+
+  #about{
+    flex-direction:column;
+  }
+
+ 
+
+  #CVC{
+   flex-direction:column;
+  }
+  #C{
+    flex-direction:column;
+  }
+  #CC{
+    flex-direction:column;
+  }
+  #BannerTxt{
+    font-size:4rem;
+  }
+}
+
+#navbar{
+  background-image:url('background1.png');
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  position:fixed;
+  top:0%;
+  left:0%;
+  width:100%;
+}
+
+nav{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  background:rgba(22,33,92,1);
+  font-size:2rem;
+  height:70px;
+  
+}
+
+#logo{
+  margin:20px;
+  display:flex;
+  justify-content:left;
+  box-shadow:12px 13px 12px black;
+}
+
+
+nav a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+
+#ToggleMenu{
+ border:3px solid black;
+ padding:5px;
+ border-radius:20%;
+ display:none;
+}
+
+#menu{
+  position:fixed;
+  top:18.5%;
+  right:0%;
+ color:black;
+ background:rgba(22,33,92,1);
+ width:239px;
+ height:267px;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ text-align:center;
+ display:none;
+}
+
+#menu #cross{
+  margin-top:2px;
+  margin-bottom:-11px;
+  display:flex;
+  justify-content:end;
+  height:50px;
+}
+
+#menu div{
+  margin:18px;
+}
+
+#menu div a{
+  text-decoration:none;
+  font-size:3rem;
+  color:white;
+}
+
+@media (min-width:1px) and (max-width:386px) {
+  nav a{
+    display:none;
+  }
+  #ToggleMenu{
+    display:block;
+    margin-right:10px;
+  }
+  nav{
+    justify-content:right;
+  }
+}
+
+#banner{
+    width:100%;
+    height:539px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    text-align:center;
+    /* background-image:url('background3.jpg');
+    background-size:100%,100%;
+    background-repeat:no-repeat; */
+    background:brown;
+    margin-top:180px;
+}
+
+@media (min-width:1px) and (max-width:850px) {
+
+  #banner{
+   height:700px;
+}
+
+#BannerTxt font{
+  font-size:1rem;
+}
+}
+
+#banner div{
+  margin:2px;
+  padding:-20px;
+   color:#ffcc29;
+   font-weight:700;
+   text-shadow:2px 1px 1px black;
+}
+
+#company img{
+  display:flex;
+  flex-direction:row;
+  margin:1px auto;
+}
+
+#about{
+ display:flex;
+ margin-left:10px;
+ font-size:2rem;
+ gap:30px;
+}
+
+#about one,two{
+ font-size:2rem;
+ display:flex;
+ flex-direction:column;
+}
+
+#about #one :last-child{
+ display:flex;
+ text-align:justify; 
+}
+
+#about #two :last-child{
+  display:flex;
+  text-align:justify;
+}
+#speaker div{
+    font-size:2rem;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+#speaker .MemberName{
+   color:blue;
+   font-weight:500;
+} 
+
+/*  */
+
+#committee{
+   display:flex;
+   flex-direction:column;
+   text-align:center;
+   font-size:2rem;   
+}
+
+#committee #CVC{
+   display:flex;
+   margin:1px auto;
+   gap:80px;
+}
+
+#committee #C{
+   display:flex;
+   gap:80px;
+   margin:1px auto;
+}
+
+#committee #CC{
+  display:flex;
+  gap:80px;
+  margin:1px auto;
+}
+
+#registration div{
+  margin-left:10px;
+}
+
+#registration #linkFor{
+  color:red;
+  font-size:3rem;
+} 
+
+#registration #linkFor a{
+  text-align:justify;
+}
+
+#registration #second{
+  font-size:2.5rem;
+}
+
+
+#registration #one{
+  color:red;
+  font-size:3rem;
+}
+
+#registration #two{
+  font-size:2.5rem;
+}
+#registration #three{
+  color:red;
+  font-size:3rem;
+}
+
+#registration #contact{
+  display:flex;
+  justify-content:space-around;
+  text-align:center;
+  font-size:2.5rem;
+}
+
+@media (min-width:1px) and (max-width:850px) {
+  #contact{
+    flex-direction:column;
+  }
+}
+
+#ab{
+    text-align:center;
+    margin:1px auto;
+    font-size:2.5rem;
+}
+
+.post{
+    color:red;
+    font-size:2.5rem;
+    font-weight:700;
+}
+
