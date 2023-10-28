@@ -115,7 +115,7 @@ nav a:hover{
   color:white;
 }
 
-@media (min-width:1px) and (max-width:480px) {
+@media (min-width:1px) and (max-width:530px) {
   .a{
     display:none;
   }
@@ -146,7 +146,7 @@ nav a:hover{
 
 #banner div{
   padding:-20px;
-   color:white;
+   color:#ffcc29;
    font-weight:700;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
    -webkit-text-stroke:1px black;
@@ -163,7 +163,14 @@ nav a:hover{
 }
 
 
-
+@media (min-width:1px) and (max-width:750px){
+ #banner{
+  background:brown;
+ }
+ #banner div{
+  color:white;
+ }
+}
  
 
 
