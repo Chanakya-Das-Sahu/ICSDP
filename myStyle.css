@@ -169,7 +169,10 @@ nav a:hover{
  }
  #banner div{
   color:white;
+  -webkit-text-stroke:0px black;
  }
+
+
 }
  
 #container{
